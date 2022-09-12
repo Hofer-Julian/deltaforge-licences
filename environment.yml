@@ -1,0 +1,53 @@
+name: deltaforge-licenses
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - affine
+  - black
+  - bottleneck
+  - cftime>=1
+  - contextily>=1
+  - cytoolz
+  - dask
+  - geopandas
+  - graphviz
+  - python-graphviz
+  - flopy
+  - hypothesis
+  - jinja2
+  - matplotlib
+  - meshzoo
+  - netcdf4
+  - numba>=0.50
+  - numpy
+  - pandas
+  - pooch
+  - pip
+  - pip:
+      - pandamesh
+  - pydata-sphinx-theme
+  - pygeos
+  - pyproj
+  - pytest
+  - pytest-benchmark
+  - pytest-cov
+  - python>=3.7,<3.11
+  - pyvista
+  - rasterio>=1.0
+  - scipy
+  - setuptools_scm
+  - scooby
+  - sphinx
+  - sphinx-gallery
+  - toolz
+  - tomli>=1.1.0
+  - tomli-w
+  - tqdm
+  - twine
+  - vtk>=9.0
+  - xarray>=0.15
+  - xugrid
+  - zarr
